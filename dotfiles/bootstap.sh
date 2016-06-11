@@ -2,7 +2,7 @@
 
 BASE_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-FILES=(.aliases  .extra .functions .gitconfig .vimrc .gemrc)
+FILES=(.aliases .bashrc .profile .bash_logout .bash_profile .bash_prompt .extra .functions .gitconfig .vimrc .gemrc)
 
 for i in "${FILES[@]}"
 do
