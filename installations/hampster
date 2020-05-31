@@ -1,3 +1,0 @@
-sudo add-apt-repository ppa:albertomilone/hamster-indicator
-sudo apt-get update
-sudo apt-get install hamster-indicator
