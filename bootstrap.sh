@@ -9,7 +9,7 @@ brew bundle
 # docker-machine env default
 # docker-machine stop default
 
-
+echo "Maruti"
 xcode-select --install
 xcrun simctl delete unavailable
 
