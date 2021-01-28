@@ -5,14 +5,15 @@ BASE_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew bundle
 
-docker-machine create --driver virtualbox default
-docker-machine env default
-docker-machine stop default
+# docker-machine create --driver virtualbox default
+# docker-machine env default
+# docker-machine stop default
+
 
 xcode-select --install
 xcrun simctl delete unavailable
 
-
+echo "Maruti.... "
 
 FILES=(.aliases .bashrc .profile .bash_logout .bash_profile .bash_prompt .extra .functions .gitconfig .vimrc .gemrc)
 
