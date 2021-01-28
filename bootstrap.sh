@@ -13,8 +13,6 @@ brew bundle
 xcode-select --install
 xcrun simctl delete unavailable
 
-echo "Maruti.... "
-
 FILES=(.aliases .bashrc .profile .bash_logout .bash_profile .bash_prompt .extra .functions .gitconfig .vimrc .gemrc)
 
 for i in "${FILES[@]}"
