@@ -51,7 +51,8 @@ brew 'vim'
 brew 'wget'
 brew 'zsh'
 brew 'zsh-completions'
-brew 'openvpn-connect'
+# brew 'openvpn-connect'
+brew 'helm'
 
 # cask 'iterm2' #already intalled
 # cask 'minikube'
